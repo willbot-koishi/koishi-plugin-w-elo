@@ -1,0 +1,21 @@
+elo-need-register: '请先注册（指令为 elo.register [name]）'
+elo-user-not-found: '平台用户 {uid} 未注册'
+
+elo-register-ok: '[{name}]，您已完成注册！初始 ELO：{elo}'
+elo-register-duplicate: '[{name}]，您已注册过'
+elo-register-invalid-name: '用户名不能仅包含空白字符'
+
+elo-check: '[{name}] 的当前 ELO：{elo}'
+
+elo-update-accept-ok: >-
+  <message>[{selfName}]，您已接受来自 [{oppoName}] 的 ELO 更新请求！（我方{status}）</message>
+  <message>
+    [{selfName}] 的新 ELO：{selfNewElo} ({selfDeltaElo})<br />
+    [{oppoName}] 的新 ELO：{oppoNewElo} ({oppoDeltaElo})
+  </message>
+
+elo-update-request-ok: '[{selfName}]，您已向 [{oppoName}] 发送 ELO 更新请求！（我方{status}）'
+elo-update-request-duplicate: '[selfName]，已存在您向 [{oppoName}] 发送的 ELO 更新请求，请等待对方确认'
+
+elo-status.0: 失败
+elo-status.1: 胜利
